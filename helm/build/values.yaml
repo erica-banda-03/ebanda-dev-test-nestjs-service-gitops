@@ -1,0 +1,18 @@
+app:
+  name: ebanda-dev-test-nestjs-service
+  namespace: ebanda-dev
+  cluster: apps.664219395ed920001eb457db.cloud.techzone.ibm.com
+
+git:
+  branch: main
+  repo: https://github.com/erica-banda-03/ebanda-dev-test-nestjs-service.git
+  org: erica-banda-03
+  name: ebanda-dev-test-nestjs-service
+  host: github.com
+  token: ''
+  webhookSecret: ''
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: ebanda-dev/test-nestjs-service
+  tag: latest
